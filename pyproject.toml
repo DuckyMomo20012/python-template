@@ -9,6 +9,8 @@ dev = "python app.py"
 lint = "flake8"
 "sort_import" = "isort ."
 pretty = "black ."
+test = "echo You are running test command"
+deploy = "echo You are running deploy command"
 
 [tool.isort]
 profile = "black"
