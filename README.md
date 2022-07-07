@@ -1,32 +1,330 @@
-# A simple python template
+<div align="center">
 
-My python template
+  <h1>Python Template</h1>
 
-<table>
-  <tr>
-    <th>Python</th>
-  </tr>
-  <tr>
-    <td>3.10.4</td>
-  </tr>
-</table>
+  <p>
+    A simple python template
+  </p>
 
-## 1. Installation:
+<!-- Badges -->
+<p>
+  <a href="https://github.com/DuckyMomo20012/python-template/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/DuckyMomo20012/python-template" alt="contributors" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/github/last-commit/DuckyMomo20012/python-template" alt="last update" />
+  </a>
+  <a href="https://github.com/DuckyMomo20012/python-template/network/members">
+    <img src="https://img.shields.io/github/forks/DuckyMomo20012/python-template" alt="forks" />
+  </a>
+  <a href="https://github.com/DuckyMomo20012/python-template/stargazers">
+    <img src="https://img.shields.io/github/stars/DuckyMomo20012/python-template" alt="stars" />
+  </a>
+  <a href="https://github.com/DuckyMomo20012/python-template/issues/">
+    <img src="https://img.shields.io/github/issues/DuckyMomo20012/python-template" alt="open issues" />
+  </a>
+  <a href="https://github.com/DuckyMomo20012/python-template/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/DuckyMomo20012/python-template.svg" alt="license" />
+  </a>
+</p>
 
-### 1.1. Install environment:
+<h4>
+    <a href="https://github.com/DuckyMomo20012/python-template/">View Demo</a>
+  <span> · </span>
+    <a href="https://github.com/DuckyMomo20012/python-template">Documentation</a>
+  <span> · </span>
+    <a href="https://github.com/DuckyMomo20012/python-template/issues/">Report Bug</a>
+  <span> · </span>
+    <a href="https://github.com/DuckyMomo20012/python-template/issues/">Request Feature</a>
+  </h4>
+</div>
 
-```console
-python -m venv .venv
+<br />
+
+<!-- Table of Contents -->
+
+# :notebook_with_decorative_cover: Table of Contents
+
+- [About the Project](#star2-about-the-project)
+  - [Screenshots](#camera-screenshots)
+  - [Tech Stack](#space_invader-tech-stack)
+  - [Features](#dart-features)
+  - [Color Reference](#art-color-reference)
+  - [Environment Variables](#key-environment-variables)
+- [Getting Started](#toolbox-getting-started)
+  - [Prerequisites](#bangbang-prerequisites)
+  - [Installation](#gear-installation)
+  - [Running Tests](#test_tube-running-tests)
+  - [Run Locally](#running-run-locally)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [Usage](#eyes-usage)
+- [Roadmap](#compass-roadmap)
+- [Contributing](#wave-contributing)
+  - [Code of Conduct](#scroll-code-of-conduct)
+- [FAQ](#grey_question-faq)
+- [License](#warning-license)
+- [Contact](#handshake-contact)
+- [Acknowledgements](#gem-acknowledgements)
+
+<!-- About the Project -->
+
+## :star2: About the Project
+
+<!-- Screenshots -->
+
+### :camera: Screenshots
+
+<div align="center">
+  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+</div>
+
+<!-- TechStack -->
+
+### :space_invader: Tech Stack
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.python.org/">Python</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://go.dev/">Golang</a></li>
+    <li><a href="https://nestjs.com/">Nest.js</a></li>
+    <li><a href="https://socket.io/">SocketIO</a></li>
+    <li><a href="https://www.prisma.io/">Prisma</a></li>
+    <li><a href="https://www.apollographql.com/">Apollo</a></li>
+    <li><a href="https://graphql.org/">GraphQL</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.mysql.com/">MySQL</a></li>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://redis.io/">Redis</a></li>
+    <li><a href="https://neo4j.com/">Neo4j</a></li>
+    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>DevOps</summary>
+  <ul>
+    <li><a href="https://www.docker.com/">Docker</a></li>
+    <li><a href="https://www.jenkins.io/">Jenkins</a></li>
+    <li><a href="https://circleci.com/">CircleCLI</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### :dart: Features
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+<!-- Color Reference -->
+
+### :art: Color Reference
+
+| Color           | Hex                                                             |
+| --------------- | --------------------------------------------------------------- |
+| Primary Color   | ![#222831](http://via.placeholder.com/10/222831?text=+) #222831 |
+| Secondary Color | ![#393E46](http://via.placeholder.com/10/393E46?text=+) #393E46 |
+| Accent Color    | ![#00ADB5](http://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
+| Text Color      | ![#EEEEEE](http://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+
+<!-- Env Variables -->
+
+### :key: Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`SECRET_KEY`: Description about this environment variable.
+
+E.g:
+
+```
+SECRET_KEY="my secret key"
 ```
 
-### 1.2. Activate environment:
+You can also checkout file `.env.example` to see all required environment
+variables.
 
-```console
-.venv\Scripts\activate
+<!-- Getting Started -->
+
+## :toolbox: Getting Started
+
+<!-- Prerequisites -->
+
+### :bangbang: Prerequisites
+
+- Python: `>= 3.9`.
+
+- This project uses [Poetry](https://python-poetry.org/) as package manager
+
+  Linux, macOS, Windows (WSL)
+
+  ```bash
+  curl -sSL https://install.python-poetry.org | python3 -
+  ```
+
+  Read more about installation on
+  [Poetry documentation](https://python-poetry.org/docs/master/#installation).
+
+<!-- Installation -->
+
+### :gear: Installation
+
+Install python-template with Poetry
+
+```bash
+poetry install
+cd python-template
 ```
 
-### 1.3. Install libs:
+OR:
 
-```console
+Export Poetry dependencies to file `requirements.txt`
+
+```bash
+poetry export -f requirements.txt --output requirements.txt
+```
+
+> NOTE: You can add option: `--dev` to include development dependencies.
+
+Then install dependencies with `pip`
+
+```bash
 pip install -r requirements.txt
 ```
+
+<!-- Running Tests -->
+
+### :test_tube: Running Tests
+
+To run tests, run the following command
+
+```bash
+poe test
+```
+
+<!-- Run Locally -->
+
+### :running: Run Locally
+
+Clone the project
+
+```bash
+git clone https://github.com/DuckyMomo20012/python-template.git
+```
+
+Go to the project directory
+
+```bash
+cd python-template
+```
+
+Install dependencies
+
+```bash
+poetry install
+```
+
+Activate virtual environment
+
+```bash
+poetry shell
+```
+
+Start the program
+
+```bash
+poe dev
+```
+
+<!-- Deployment -->
+
+### :triangular_flag_on_post: Deployment
+
+To deploy this project run
+
+```bash
+poe deploy
+```
+
+<!-- Usage -->
+
+## :eyes: Usage
+
+Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
+
+```python
+print("Hello World")
+```
+
+<!-- Roadmap -->
+
+## :compass: Roadmap
+
+- [x] Todo 1
+- [ ] Todo 2
+
+<!-- Contributing -->
+
+## :wave: Contributing
+
+<a href="https://github.com/DuckyMomo20012/python-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DuckyMomo20012/python-template" />
+</a>
+
+Contributions are always welcome!
+
+<!-- Code of Conduct -->
+
+### :scroll: Code of Conduct
+
+Please read the [Code of Conduct](https://github.com/DuckyMomo20012/python-template/blob/main/CODE_OF_CONDUCT.md)
+
+<!-- FAQ -->
+
+## :grey_question: FAQ
+
+- Question 1
+
+  - Answer 1
+
+- Question 2
+
+  - Answer 2
+
+<!-- License -->
+
+## :warning: License
+
+Distributed under MIT license. See [LICENSE](https://github.com/DuckyMomo20012/image-n-crypt/blob/main/LICENSE) for more information.
+
+<!-- Contact -->
+
+## :handshake: Contact
+
+Duong Vinh - [@duckymomo20012](https://twitter.com/duckymomo20012) - tienvinh.duong4@gmail.com
+
+Project Link: [https://github.com/DuckyMomo20012/python-template](https://github.com/DuckyMomo20012/python-template)
+
+<!-- Acknowledgments -->
+
+## :gem: Acknowledgements
+
+Here are useful resources and libraries that we have used in our projects.
+
+- [Awesome Readme Template](https://github.com/Louis3797/awesome-readme-template):
+  A detailed template to bootstrap your README file quickly.
