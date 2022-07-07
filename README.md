@@ -23,7 +23,7 @@
   <a href="https://github.com/DuckyMomo20012/python-template/issues/">
     <img src="https://img.shields.io/github/issues/DuckyMomo20012/python-template" alt="open issues" />
   </a>
-  <a href="https://github.com/DuckyMomo20012/python-template/blob/master/LICENSE">
+  <a href="https://github.com/DuckyMomo20012/python-template/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/DuckyMomo20012/python-template.svg" alt="license" />
   </a>
 </p>
@@ -148,12 +148,12 @@
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`SECRET_KEY`: Description about this environment variable.
+`TEST_VAR`: Description about this environment variable.
 
 E.g:
 
 ```
-SECRET_KEY="my secret key"
+TEST_VAR="my secret key"
 ```
 
 You can also checkout file `.env.example` to see all required environment
