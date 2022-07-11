@@ -53,9 +53,8 @@
   - [Environment Variables](#key-environment-variables)
 - [Getting Started](#toolbox-getting-started)
   - [Prerequisites](#bangbang-prerequisites)
-  - [Installation](#gear-installation)
-  - [Running Tests](#test_tube-running-tests)
   - [Run Locally](#running-run-locally)
+  - [Running Tests](#test_tube-running-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [Usage](#eyes-usage)
 - [Roadmap](#compass-roadmap)
@@ -181,43 +180,6 @@ variables.
   Read more about installation on
   [Poetry documentation](https://python-poetry.org/docs/master/#installation).
 
-<!-- Installation -->
-
-### :gear: Installation
-
-Install python-template with Poetry:
-
-```bash
-cd python-template
-poetry install
-```
-
-OR:
-
-Export Poetry dependencies to file `requirements.txt`:
-
-```bash
-poetry export -f requirements.txt --output requirements.txt
-```
-
-> NOTE: You can add option: `--dev` to include development dependencies.
-
-Then install dependencies with `pip`:
-
-```bash
-pip install -r requirements.txt
-```
-
-<!-- Running Tests -->
-
-### :test_tube: Running Tests
-
-To run tests, run the following command:
-
-```bash
-poe test
-```
-
 <!-- Run Locally -->
 
 ### :running: Run Locally
@@ -240,6 +202,24 @@ Install dependencies:
 poetry install
 ```
 
+OR:
+
+Export Poetry dependencies to file `requirements.txt`:
+
+```bash
+poetry export -f requirements.txt --output requirements.txt
+```
+
+> NOTE: You can add option: `--dev` to include development dependencies.
+
+Then install dependencies with `pip`:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
 Activate the virtual environment:
 
 ```bash
@@ -250,6 +230,16 @@ Start the program:
 
 ```bash
 poe dev
+```
+
+<!-- Running Tests -->
+
+### :test_tube: Running Tests
+
+To run tests, run the following command:
+
+```bash
+poe test
 ```
 
 <!-- Deployment -->
