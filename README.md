@@ -210,7 +210,7 @@ Export Poetry dependencies to file `requirements.txt`:
 poetry export -f requirements.txt --output requirements.txt
 ```
 
-> NOTE: You can add option: `--dev` to include development dependencies.
+> **Note**: You can add option: `--dev` to include development dependencies.
 
 Then install dependencies with `pip`:
 
@@ -260,7 +260,17 @@ Use this space to tell a little more about your project and how it can be used.
 Show additional screenshots, code samples, demos, or links to other resources.
 
 ```python
+from environs import Env
+
+env = Env()
+# Read .env into os.environ
+env.read_env()
+
 print("Hello World")
+
+TEST_VAR = env.str("TEST_VAR")
+
+print(f"My secret key: {TEST_VAR}")
 ```
 
 <!-- Roadmap -->
