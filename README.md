@@ -146,9 +146,11 @@
 ### :key: Environment Variables
 
 To run this project, you will need to add the following environment variables to
-your .env file.
+your `.env` file:
 
-`TEST_VAR`: Description of this environment variable.
+- **App configs:**
+
+  `TEST_VAR`: Description of this environment variable.
 
 E.g:
 
