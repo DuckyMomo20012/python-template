@@ -24,7 +24,7 @@ python = "^3.9"
 environs = "^9.5.0"
 
 [tool.poetry.dev-dependencies]
-poethepoet = "^0.14.0"
+poethepoet = "^0.16.0"
 black = "^22.8.0"
 isort = "^5.10.1"
 flake8 = "^5.0.4"
