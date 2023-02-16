@@ -6,6 +6,6 @@ env.read_env()
 
 print("Hello World")
 
-TEST_VAR = env.str("TEST_VAR")
+TEST_VAR = env.str("TEST_VAR", "Not set")
 
 print(f"My secret key: {TEST_VAR}")
