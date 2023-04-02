@@ -8,6 +8,7 @@
     "mikestead.dotenv",
     "EditorConfig.EditorConfig",
     "usernamehw.errorlens",
+    "ms-python.flake8",
     "GitHub.copilot",
     "eamodio.gitlens",
     "kisstkondoros.vscode-gutter-preview",

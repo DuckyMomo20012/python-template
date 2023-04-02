@@ -70,8 +70,8 @@
   "git.autofetch": true,
   "github.copilot.enable": {
     "*": true,
-    "yaml": false,
-    "plaintext": false,
+    "yaml": true,
+    "plaintext": true,
     "markdown": true
   },
   // Highlight Matching Tag
