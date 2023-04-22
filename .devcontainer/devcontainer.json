@@ -20,6 +20,8 @@
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
         "aliariff.auto-add-brackets",
+        "formulahendry.auto-rename-tag",
+        "ms-python.black-formatter",
         "chunsen.bracket-select",
         "pustelto.bracketeer",
         "streetsidesoftware.code-spell-checker",
@@ -30,11 +32,15 @@
         "ms-python.flake8",
         "GitHub.copilot",
         "eamodio.gitlens",
+        "vincaslt.highlight-matching-tag",
+        "kisstkondoros.vscode-gutter-preview",
         "ms-python.isort",
+        "esbenp.prettier-vscode",
         "bmalehorn.print-it",
         "ms-python.vscode-pylance",
         "ms-python.python",
         "stkb.rewrap",
+        "zengxingxin.sort-js-object-keys",
         "albert.TabOut",
         "wayou.vscode-todo-highlight",
         "vscode-icons-team.vscode-icons"
