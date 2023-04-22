@@ -170,7 +170,7 @@ variables.
 
 ### :bangbang: Prerequisites
 
-- Python: `>= 3.9`.
+- Python: `>= 3.11`.
 
 - This project uses [Poetry](https://python-poetry.org/) as package manager:
 
@@ -207,6 +207,15 @@ poetry install
 
 OR:
 
+Install dependencies with `pip`:
+
+```bash
+pip install -r requirements.txt
+```
+
+<details>
+<summary>Export dependencies from </code>pyproject.toml</code></summary>
+
 Export Poetry dependencies to file `requirements.txt`:
 
 ```bash
@@ -215,11 +224,7 @@ poetry export -f requirements.txt --output requirements.txt
 
 > **Note**: You can add option: `--dev` to include development dependencies.
 
-Then install dependencies with `pip`:
-
-```bash
-pip install -r requirements.txt
-```
+</details>
 
 ---
 
@@ -297,7 +302,8 @@ Contributions are always welcome!
 
 ### :scroll: Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/DuckyMomo20012/python-template/blob/main/CODE_OF_CONDUCT.md).
+Please read the
+[Code of Conduct](https://github.com/DuckyMomo20012/python-template/blob/main/CODE_OF_CONDUCT.md).
 
 <!-- FAQ -->
 
@@ -326,7 +332,8 @@ for more information.
 Duong Vinh - [@duckymomo20012](https://twitter.com/duckymomo20012) -
 tienvinh.duong4@gmail.com
 
-Project Link: [https://github.com/DuckyMomo20012/python-template](https://github.com/DuckyMomo20012/python-template).
+Project Link:
+[https://github.com/DuckyMomo20012/python-template](https://github.com/DuckyMomo20012/python-template).
 
 <!-- Acknowledgments -->
 
