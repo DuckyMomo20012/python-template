@@ -1,9 +1,9 @@
-environs==11.2.0; python_version >= "3.12" and python_version < "4.0" \
-    --hash=sha256:536fc3572fb32b67896bdf4a9fb77eceeeca85f873123268e3a035804fbff0e3 \
-    --hash=sha256:87c5759dad117ebd36d8d10a24caf13ec1056b6cd42343a758b08ac6b9195be0
-marshmallow==3.23.1; python_version >= "3.12" and python_version < "4.0" \
-    --hash=sha256:3a8dfda6edd8dcdbf216c0ede1d1e78d230a6dc9c5a088f58c4083b974a0d468 \
-    --hash=sha256:fece2eb2c941180ea1b7fcbd4a83c51bfdd50093fdd3ad2585ee5e1df2508491
+environs==14.1.1; python_version >= "3.12" and python_version < "4.0" \
+    --hash=sha256:03db7ee2d50ec697b68814cd175a3a05a7c7954804e4e419ca8b570dc5a835cf \
+    --hash=sha256:45bc56f1d53bbc59d8dd69bba97377dd88ec28b8229d81cedbd455b21789445b
+marshmallow==3.26.1; python_version >= "3.12" and python_version < "4.0" \
+    --hash=sha256:3350409f20a70a7e4e11a27661187b77cdcaeb20abca41c1454fe33636bea09c \
+    --hash=sha256:e6d8affb6cb61d39d26402096dc0aee12d5a26d490a121f118d2e81dc0719dc6
 packaging==24.2; python_version >= "3.12" and python_version < "4.0" \
     --hash=sha256:09abb1bccd265c01f4a3aa3f7a7db064b36514d2cba19a2f694fe6150451a759 \
     --hash=sha256:c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f
