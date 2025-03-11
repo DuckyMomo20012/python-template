@@ -170,7 +170,7 @@ variables.
 
 ### :bangbang: Prerequisites
 
-- Python: `>= 3.11`.
+- Python: `>= 3.12`.
 
 - This project uses [Poetry](https://python-poetry.org/) as package manager:
 
@@ -181,7 +181,7 @@ variables.
   ```
 
   Read more about installation on
-  [Poetry documentation](https://python-poetry.org/docs/master/#installation).
+  [Poetry documentation](https://python-poetry.org/docs/main/#installing-with-the-official-installer).
 
 <!-- Run Locally -->
 
@@ -230,9 +230,21 @@ poetry export -f requirements.txt --output requirements.txt
 
 </details>
 
+OR:
+
+```bash
+poe export
+```
+
 ---
 
 Activate the virtual environment:
+
+```bash
+eval $(poetry env activate)
+```
+
+OR:
 
 ```bash
 poetry shell
